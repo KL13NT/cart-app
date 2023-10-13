@@ -24,6 +24,7 @@
 
 		width: fit-content;
 		min-width: 400px;
+		min-height: 30vh;
 		max-height: 90vh;
 	}
 }
@@ -49,7 +50,7 @@
 	}
 }
 
-.list {
+.container {
 	scrollbar-width: thin;
 
 	overflow: auto;
@@ -57,9 +58,15 @@
 	max-height: 80%;
 	margin-top: var(--space-2);
 
-	list-style: none;
-
 	border-radius: 16px;
+
+	@media (#{breakpoints.$breakpoints-lg}) {
+		max-height: 60vh;
+	}
+}
+
+.list {
+	list-style: none;
 }
 
 .product {

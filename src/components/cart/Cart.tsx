@@ -65,49 +65,55 @@ export function Cart() {
 				</button>
 			</div>
 
-			<ul className={styles.list} data-testid="products">
-				{products.map(({ id, thumbnail, title, quantity }) => (
-					<li className={styles.product} key={id} data-id={id}>
-						<img src={thumbnail} alt={title} />
-						<div className={styles.content}>
-							<p>{title}</p>
+			<div className={styles.container}>
+				<ul className={styles.list} data-testid="products">
+					{products.map(({ id, thumbnail, title, quantity }) => (
+						<li className={styles.product} key={id} data-id={id}>
+							<img src={thumbnail} alt={title} />
+							<div className={styles.content}>
+								<p>{title}</p>
 
-							<div className={styles.quantity}>
-								<button
-									data-op="add"
-									onClick={handleChangeQuantity}
-									className={styles.quantityAction}
-								>
-									<img src={plusIcon} alt="" role="presentation" />
-								</button>
-								<p aria-label="Quantity in cart" data-testid="quantity">
-									{quantity}
-								</p>
-								<button
-									data-op="remove"
-									onClick={handleChangeQuantity}
-									className={styles.quantityAction}
-								>
-									<img src={minusIcon} alt="" role="presentation" />
-								</button>
+								<div className={styles.quantity}>
+									<button
+										data-op="remove"
+										onClick={handleChangeQuantity}
+										className={styles.quantityAction}
+										aria-label="Remove one"
+									>
+										<img src={minusIcon} alt="" role="presentation" />
+									</button>
+									<p aria-label="Quantity in cart" data-testid="quantity">
+										{quantity}
+									</p>
+									<button
+										data-op="add"
+										onClick={handleChangeQuantity}
+										className={styles.quantityAction}
+										aria-label="Add one"
+									>
+										<img src={plusIcon} alt="" role="presentation" />
+									</button>
+								</div>
 							</div>
-						</div>
-					</li>
-				))}
-			</ul>
-
-			<div className={styles.price}>
-				<p>Subtotal</p>
-				<p data-testid="subtotal">{formatPrice(total)}</p>
+						</li>
+					))}
+				</ul>
 			</div>
 
-			<Button
-				className={styles.checkout}
-				disabled={products.length === 0}
-				data-testid="checkout"
-			>
-				Proceed to checkout
-			</Button>
+			<div className={styles.footer}>
+				<div className={styles.price}>
+					<p>Subtotal</p>
+					<p data-testid="subtotal">{formatPrice(total)}</p>
+				</div>
+
+				<Button
+					className={styles.checkout}
+					disabled={products.length === 0}
+					data-testid="checkout"
+				>
+					Proceed to checkout
+				</Button>
+			</div>
 		</div>
 	);
 }

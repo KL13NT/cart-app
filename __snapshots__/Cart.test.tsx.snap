@@ -38,29 +38,37 @@ exports[`Cart > matches snapshot 1`] = `
             />
           </button>
         </div>
-        <ul
-          class="_list_57a493"
-          data-testid="products"
-        />
         <div
-          class="_price_57a493"
+          class="_container_57a493"
         >
-          <p>
-            Subtotal
-          </p>
-          <p
-            data-testid="subtotal"
-          >
-            £0.00
-          </p>
+          <ul
+            class="_list_57a493"
+            data-testid="products"
+          />
         </div>
-        <button
-          class="_button_a9a5cd _checkout_57a493"
-          data-testid="button"
-          disabled=""
+        <div
+          class="_footer_57a493"
         >
-          Proceed to checkout
-        </button>
+          <div
+            class="_price_57a493"
+          >
+            <p>
+              Subtotal
+            </p>
+            <p
+              data-testid="subtotal"
+            >
+              £0.00
+            </p>
+          </div>
+          <button
+            class="_button_a9a5cd _checkout_57a493"
+            data-testid="button"
+            disabled=""
+          >
+            Proceed to checkout
+          </button>
+        </div>
       </div>
     </div>
   </body>,
@@ -98,29 +106,37 @@ exports[`Cart > matches snapshot 1`] = `
           />
         </button>
       </div>
-      <ul
-        class="_list_57a493"
-        data-testid="products"
-      />
       <div
-        class="_price_57a493"
+        class="_container_57a493"
       >
-        <p>
-          Subtotal
-        </p>
-        <p
-          data-testid="subtotal"
-        >
-          £0.00
-        </p>
+        <ul
+          class="_list_57a493"
+          data-testid="products"
+        />
       </div>
-      <button
-        class="_button_a9a5cd _checkout_57a493"
-        data-testid="button"
-        disabled=""
+      <div
+        class="_footer_57a493"
       >
-        Proceed to checkout
-      </button>
+        <div
+          class="_price_57a493"
+        >
+          <p>
+            Subtotal
+          </p>
+          <p
+            data-testid="subtotal"
+          >
+            £0.00
+          </p>
+        </div>
+        <button
+          class="_button_a9a5cd _checkout_57a493"
+          data-testid="button"
+          disabled=""
+        >
+          Proceed to checkout
+        </button>
+      </div>
     </div>
   </div>,
   "debug": [Function],

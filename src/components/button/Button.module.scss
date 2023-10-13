@@ -35,6 +35,12 @@
 			-4px -4px 20px #fff;
 	}
 
+	&:not(:disabled):active {
+		box-shadow:
+			0 0 20px #bebebe,
+			-0 -0 20px #fff;
+	}
+
 	@media (#{breakpoints.$breakpoints-lg}) {
 		width: fit-content;
 	}

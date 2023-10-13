@@ -1,0 +1,55 @@
+@use "../../styles/_breakpoints.tokens.scss" as breakpoints;
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.logo {
+	height: 60px;
+}
+
+.links {
+	display: none;
+	gap: var(--space-4);
+	align-items: center;
+	list-style: none;
+
+	a {
+		font-size: var(--font-size-400);
+		font-weight: var(--font-weight-semibold);
+		color: var(--color-text-primary);
+		text-decoration: none;
+	}
+
+	@media (#{breakpoints.$breakpoints-lg}) {
+		display: flex;
+	}
+}
+
+.cart {
+	cursor: pointer;
+	position: relative;
+
+	> img {
+		height: 20px;
+	}
+
+	&[data-occupied="true"]::before {
+		content: "";
+
+		position: absolute;
+		top: -2px;
+		left: -2px;
+
+		display: block;
+
+		width: 4px;
+		height: 4px;
+
+		background-color: var(--color-brand-primary-1);
+		border-radius: 100%;
+	}
+}

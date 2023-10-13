@@ -1,0 +1,47 @@
+/*
+I usually split these into multiple files depending on project size and
+available tokens separated into categories: colors, fonts, spacing, typography. 
+*/
+:root {
+	--color-brand-primary-1: #be225c;
+	--color-brand-primary-2: #ff347e;
+	--color-brand-dark: #23222a;
+	--color-brand-secondary: #f5f6f6;
+	--color-bg-primary: #eee;
+	--font-weight-semibold: 600;
+	--font-weight-regular: 400;
+	--font-size-300: clamp(
+		0.7294rem,
+		0.7151rem + 0.0715vw,
+		0.8rem
+	); /* Step -1: 11.67px → 12.80px */
+
+	--font-size-400: clamp(
+		0.875rem,
+		0.8497rem + 0.1266vw,
+		1rem
+	); /* Step 0: 14.00px → 16.00px */
+
+	--font-size-500: clamp(
+		1.05rem,
+		1.0095rem + 0.2025vw,
+		1.25rem
+	); /* Step 1: 16.80px → 20.00px */
+
+	--font-size-600: clamp(
+		1.26rem,
+		1.1987rem + 0.3063vw,
+		1.5625rem
+	); /* Step 2: 20.16px → 25.00px */
+
+	--space-1: 0.4rem;
+	--space-2: 0.8rem;
+	--space-3: 1.2rem;
+	--space-4: 1.6rem;
+	--space-5: 2rem;
+	--space-6: 2.4rem;
+	--z-index-1: 1;
+	--z-index-2: 2;
+	--z-index-3: 3;
+	--z-index-4: 4;
+}

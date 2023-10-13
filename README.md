@@ -84,7 +84,7 @@ available time-frame.
 - [x] Coverage Reporting
 - [x] Design tokens in one place
 - [x] Sass breakpoints to avoid repeating media queries numbers manually
-- [x] Automatically generated type-scale that respects user preferences
+- [x] Automatically generated type-scale that respects user preferences (using [UTOPIA](https://utopia.fyi/type/calculator/?c=320,14,1.2,1900,16,1.25,2,1,&s=0.75%7C0.5%7C0.25,1.5%7C2%7C3%7C4%7C6,s-l&g=s,xl,3xl,3))
 - [x] Design & Functionality Improvements
   - [x] Toggle-able cart drawer
   - [x] Persistent cart state across sessions

@@ -3,6 +3,10 @@
 This app is built with React, TypeScript, Sass, CSSModules, Vite, Vitest, and
 Zustand for state management.
 
+> This project is hosted at
+> [https://kl13nt.github.io/cart-app/](https://kl13nt.github.io/cart-app/) for
+> convenience.
+
 - [Getting Started](#getting-started)
 - [Technology Stack \& Decisions](#technology-stack--decisions)
 - [Features](#features)
@@ -81,6 +85,7 @@ available time-frame.
 - [x] Snapshot Testing
 - [x] Component UI Testing
 - [x] Unit Testing
+- [x] Deployed using GitHub Actions to GitHub Pages
 - [x] Coverage Reporting
 - [x] Design tokens in one place
 - [x] Sass breakpoints to avoid repeating media queries numbers manually

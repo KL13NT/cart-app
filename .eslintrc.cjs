@@ -30,6 +30,11 @@ module.exports = {
 		ecmaVersion: "latest",
 		sourceType: "module",
 	},
+	settings: {
+		react: {
+			version: "detect",
+		},
+	},
 	plugins: ["@typescript-eslint", "react", "react-refresh", "jsx-a11y"],
 	rules: {
 		"react-refresh/only-export-components": [

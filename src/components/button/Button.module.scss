@@ -1,0 +1,41 @@
+@use "../../styles/_breakpoints.tokens.scss" as breakpoints;
+
+.button {
+	cursor: pointer;
+
+	width: 100%;
+	margin-top: var(--space-2);
+	padding: var(--space-2) var(--space-4);
+
+	font-size: var(--font-size-400);
+	font-weight: var(--font-weight-semibold);
+	color: var(--color-brand-secondary);
+	text-align: center;
+
+	background-color: var(--color-brand-dark);
+	border-radius: 24px;
+
+	transition:
+		background-color 0.15s ease-out,
+		color 0.15s ease-out,
+		box-shadow 0.15s ease-out;
+
+	&:disabled {
+		cursor: not-allowed;
+		opacity: 0.5;
+	}
+
+	&:not(:disabled):hover,
+	&:not(:disabled):focus,
+	&:not(:disabled):active {
+		color: var(--color-brand-dark);
+		background-color: var(--color-brand-secondary);
+		box-shadow:
+			4px 4px 20px #bebebe,
+			-4px -4px 20px #fff;
+	}
+
+	@media (#{breakpoints.$breakpoints-lg}) {
+		width: fit-content;
+	}
+}

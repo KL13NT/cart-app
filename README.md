@@ -84,6 +84,7 @@ available time-frame.
 - [x] Documented environment variables in vite-env.d.ts
 - [x] Snapshot Testing
 - [x] Component UI Testing
+- [x] React, Zustand, and my own code in separate chunks
 - [x] Unit Testing
 - [x] Deployed using GitHub Actions to GitHub Pages
 - [x] Coverage Reporting

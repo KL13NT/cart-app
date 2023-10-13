@@ -1,0 +1,8 @@
+.layout {
+	display: flex;
+	gap: var(--space-4);
+	justify-content: space-between;
+
+	max-width: 1500px;
+	margin-inline: auto;
+}

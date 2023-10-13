@@ -1,0 +1,26 @@
+@use "../../styles/_breakpoints.tokens.scss" as breakpoints;
+
+.container {
+	margin-top: var(--space-6);
+}
+
+.description {
+	margin-top: var(--space-4);
+}
+
+.productsList {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	flex-shrink: 0;
+	gap: var(--space-6) var(--space-4);
+
+	width: 100%;
+	margin-top: var(--space-6);
+
+	list-style: none;
+
+	@media (#{breakpoints.$breakpoints-lg}) {
+		width: fit-content;
+		max-width: 1072px;
+	}
+}

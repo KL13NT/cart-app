@@ -1,0 +1,178 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Cart > matches snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="_cart_57a493"
+        data-testid="cart"
+      >
+        <div
+          class="_header_57a493"
+        >
+          <div
+            class="_title_57a493"
+          >
+            <h1>
+              My Cart
+            </h1>
+            <p
+              data-testid="product-count"
+            >
+              (
+              0
+               items)
+            </p>
+          </div>
+          <button
+            aria-label="Close cart"
+            class="_close_57a493"
+            data-testid="close"
+          >
+            <img
+              alt=""
+              role="presentation"
+              src="/src/assets/icons/x.svg"
+            />
+          </button>
+        </div>
+        <ul
+          class="_list_57a493"
+          data-testid="products"
+        />
+        <div
+          class="_price_57a493"
+        >
+          <p>
+            Subtotal
+          </p>
+          <p
+            data-testid="subtotal"
+          >
+            £0.00
+          </p>
+        </div>
+        <button
+          class="_button_a9a5cd _checkout_57a493"
+          data-testid="button"
+          disabled=""
+        >
+          Proceed to checkout
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="_cart_57a493"
+      data-testid="cart"
+    >
+      <div
+        class="_header_57a493"
+      >
+        <div
+          class="_title_57a493"
+        >
+          <h1>
+            My Cart
+          </h1>
+          <p
+            data-testid="product-count"
+          >
+            (
+            0
+             items)
+          </p>
+        </div>
+        <button
+          aria-label="Close cart"
+          class="_close_57a493"
+          data-testid="close"
+        >
+          <img
+            alt=""
+            role="presentation"
+            src="/src/assets/icons/x.svg"
+          />
+        </button>
+      </div>
+      <ul
+        class="_list_57a493"
+        data-testid="products"
+      />
+      <div
+        class="_price_57a493"
+      >
+        <p>
+          Subtotal
+        </p>
+        <p
+          data-testid="subtotal"
+        >
+          £0.00
+        </p>
+      </div>
+      <button
+        class="_button_a9a5cd _checkout_57a493"
+        data-testid="button"
+        disabled=""
+      >
+        Proceed to checkout
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

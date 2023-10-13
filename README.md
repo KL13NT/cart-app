@@ -10,7 +10,7 @@ Zustand for state management.
 - [Getting Started](#getting-started)
 - [Technology Stack \& Decisions](#technology-stack--decisions)
 - [Features](#features)
-- [Architecture](#architecture)
+- [State Architecture](#state-architecture)
 - [Development Environment Tools](#development-environment-tools)
 - [Types](#types)
 - [Configuration options and tools I didn't include because the project isn't large enough](#configuration-options-and-tools-i-didnt-include-because-the-project-isnt-large-enough)
@@ -105,9 +105,7 @@ Cart](./docs/cart-quantity.png)
   - [x] Product cards indicate high value (15%+) discounts ![High Value
 Discount](./docs/high-value.png)
 
-**Extras**:
-
-## Architecture
+## State Architecture
 
 ![Architecture](./docs/architecture.svg)
 

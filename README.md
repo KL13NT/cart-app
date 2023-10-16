@@ -99,7 +99,6 @@ Discount](./docs/high-value.png)
 - [x] Snapshot Testing
 - [x] Component UI Testing
 - [x] React, Zustand, and my own code in separate chunks
-- [x] Unit Testing
 - [x] Deployed using GitHub Actions to GitHub Pages
 - [x] Coverage Reporting
 - [x] Design tokens in one place
@@ -134,12 +133,8 @@ schemas, or other means of API type documentation to generate these types.
 
 - SVGR to optimize SVGs
 - Integration testing
-- Coverage reports
 - Axe-core for automated pipeline accessibility testing
 - E2E automated testing
 - Storybook for component development and documentation
 - React Router for routing
-- React Helmet for SEO
 - React Query or alternatives for data fetching
-- React Hook Form or alternatives for form management
-- React Intl or alternatives for internationalization

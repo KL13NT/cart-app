@@ -14,5 +14,5 @@ export async function fetch<T>(
 }
 
 export async function getProducts() {
-	return fetch<ProductsResponse>(import.meta.env.VITE_API_URL);
+	return fetch<ProductsResponse>("https://dummyjson.com/products");
 }
